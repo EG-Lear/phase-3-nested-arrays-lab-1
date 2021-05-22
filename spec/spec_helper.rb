@@ -1,5 +1,3 @@
-require 'bundler'
-Bundler.require
 require 'yaml'
 CREATED_FILES = Dir.glob(File.join(File.dirname(__FILE__), '..', 'lib', '*.rb'))
 CREATED_FILES.each{ |f| require f }
